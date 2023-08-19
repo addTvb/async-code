@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style/style.css" />
+		<script src="./dest/script.js" defer></script>
+		<title>Promise All</title>
+	</head>
+	<body>
+		<div id="loading" class="loading hide">
+			<span class="spinner"></span>
+		</div>
+
+		<div class="buttons">
+			<button class="btn random" id="get-url-button">Get Random Image</button>
+			<button class="btn clear" id="clear-button">Clear</button>
+			<button class="btn fetch" id="fetch-button">Fetch All</button>
+		</div>
+		<div class="info-box">
+			<div>All images size: <span id="img-size">0</span>mb</div>
+		</div>
+		<div class="img-box"></div>
+	</body>
+</html>
